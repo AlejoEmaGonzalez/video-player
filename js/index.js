@@ -27,7 +27,8 @@ function handleForward() {
   $video.currentTime += 10
     
 }
-const $progress = document.querySelector("#progress")
+
+const $progress = document.querySelector('#progress')
 $video.addEventListener('loadedmetadata',handleLoaded)
 $video.addEventListener('timeupdate',handleTimeupdate)
 
